@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31613.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlumGuide.PlutoRover", "PlumGuide.PlutoRover\PlumGuide.PlutoRover.csproj", "{3C596DE1-6D79-4D18-A735-74D7BF437475}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{3B00107B-4171-4326-B392-3C300B846939}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9E916255-A841-4216-A87D-E1F0B31886B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EC656DA8-9843-4794-BAA4-81D66A42CE3D}"
+	ProjectSection(SolutionItems) = preProject
+		PlumGuide.PlutoRover\.gitignore = PlumGuide.PlutoRover\.gitignore
+		PlumGuide.ruleset = PlumGuide.ruleset
+		README.md = README.md
+		stylecop.json = stylecop.json
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlumGuide.PlutoRover.Tests", "PlumGuide.PlutoRover.Tests\PlumGuide.PlutoRover.Tests.csproj", "{AB81A6A7-A30C-46DF-BA68-A888B29BFD29}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C596DE1-6D79-4D18-A735-74D7BF437475}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C596DE1-6D79-4D18-A735-74D7BF437475}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C596DE1-6D79-4D18-A735-74D7BF437475}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C596DE1-6D79-4D18-A735-74D7BF437475}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB81A6A7-A30C-46DF-BA68-A888B29BFD29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB81A6A7-A30C-46DF-BA68-A888B29BFD29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB81A6A7-A30C-46DF-BA68-A888B29BFD29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB81A6A7-A30C-46DF-BA68-A888B29BFD29}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3C596DE1-6D79-4D18-A735-74D7BF437475} = {9E916255-A841-4216-A87D-E1F0B31886B8}
+		{AB81A6A7-A30C-46DF-BA68-A888B29BFD29} = {3B00107B-4171-4326-B392-3C300B846939}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {34616645-49D2-4F8D-BCB5-148AC74C386F}
+	EndGlobalSection
+EndGlobal
