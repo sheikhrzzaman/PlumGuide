@@ -8,7 +8,7 @@ namespace Calculator.Validations
 {
     public class InstructionValidator : AbstractValidator<char[]>
     {
-        private readonly HashSet<string> validInstructions = new HashSet<string>(StringComparer.OrdinalIgnoreCase)
+        private readonly HashSet<string> _validInstructions = new HashSet<string>(StringComparer.OrdinalIgnoreCase)
         {
             Constants.Move.Backward,
             Constants.Move.Forward,
@@ -21,7 +21,7 @@ namespace Calculator.Validations
             RuleFor(x => x).NotEmpty();
 
             RuleFor(x => x)
-                .Must(x => x.All(s => validInstructions.Contains(s.ToString())))
+                .Must(x => x.All(s => _validInstructions.Contains(s.ToString())))
                 .WithMessage(y => $"Instructions must be one of these values-{Constants.Move.Backward},{Constants.Move.Forward},{Constants.Move.Left},{Constants.Move.Right}");
         }
     }
